@@ -48,8 +48,8 @@ czasie bez internetu albo po aktualizacji dodatku do nowej wersji.
 
 **Wiadomość z kodem może trafić do spamu.** Jeśli nie widzisz jej w
 Skrzynce odbiorczej, sprawdź folder **Wiadomości-śmieci**. W Outlooku kliknij
-ją prawym przyciskiem → **Wiadomości-śmieci → Nie jest wiadomością-śmieciem**
-— kolejne kody będą wtedy trafiać do Skrzynki odbiorczej.
+ją tam prawym przyciskiem → **Zgłoś → Nie wiadomość-śmieć** — kolejne kody
+będą wtedy trafiać do Skrzynki odbiorczej.
 
 Jeśli pojawi się komunikat o braku dostępu — skontaktuj się z administratorem.
 
