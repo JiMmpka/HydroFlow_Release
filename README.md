@@ -21,21 +21,23 @@ Strona wydania: https://github.com/JiMmpka/HydroFlow_Release/releases/latest
 ## Instalacja
 
 1. Pobierz `HydroFlow.zip`.
-2. **Zanim rozpakujesz:** kliknij plik ZIP prawym przyciskiem → **Właściwości**
-   → zaznacz **Odblokuj** → **OK**. Bez tego Excel może zablokować makra
-   dodatku pobranego z internetu.
-3. Rozpakuj **cały folder `HydroFlow`** w stałe miejsce na dysku (np.
+2. Rozpakuj **cały folder `HydroFlow`** w stałe miejsce na dysku (np.
    `Dokumenty\HydroFlow`). W środku są `HydroFlow.xlam` i folder `bin`.
    - **Folder `bin` musi zawsze leżeć obok `HydroFlow.xlam`** — bez niego
      dodatek nie działa.
    - Nie zmieniaj nazw plików w folderze `bin`.
-4. Jeśli masz starszą wersję HydroFlow — najpierw ją odłącz (krok 5, odznacz
-   i zamknij Excel).
-5. W Excelu: **Plik → Opcje → Dodatki** → na dole **Zarządzaj: Dodatki
+3. W Excelu: **Plik → Opcje → Dodatki** → na dole **Zarządzaj: Dodatki
    programu Excel → Przejdź…** → **Przeglądaj…** → wskaż `HydroFlow.xlam` →
    upewnij się, że dodatek jest zaznaczony → **OK**.
 
 Po instalacji w Excelu pojawia się karta wstążki **Flows**.
+
+**Jeśli dodatek się nie wczytuje albo Excel blokuje jego makra** — Windows
+mógł oznaczyć pobrany plik jako pochodzący z internetu. Zwykle nie jest to
+potrzebne, ale w takiej sytuacji kliknij prawym przyciskiem plik ZIP (przed
+rozpakowaniem) albo `HydroFlow.xlam` → **Właściwości** → zaznacz
+**Odblokuj** (jeśli opcja jest dostępna) → **OK**, a potem uruchom Excel
+ponownie.
 
 ## Pierwsze użycie — logowanie
 
@@ -60,7 +62,7 @@ Przyciski i skróty działają na arkuszu `Przepływy` albo `IS Solver`.
 
 ## Aktualizacja
 
-1. Pobierz nowy `HydroFlow.zip` i odblokuj go (jak w instalacji, krok 2).
+1. Pobierz nowy `HydroFlow.zip`.
 2. Zamknij Excel.
 3. Zastąp zawartość folderu `HydroFlow` nowymi plikami (`HydroFlow.xlam` i
    cały folder `bin`).
