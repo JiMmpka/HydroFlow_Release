@@ -2,8 +2,11 @@
 
 Dodatek do programu Microsoft Excel dla Windows do obliczeń przepływu w
 kanalizacji: obliczenie przepływu, automatyczny dobór wymiarów kanałów i
-spadków, dodawanie i usuwanie odcinków. Działa z arkuszami obliczeniowymi
-`Przepływy` oraz `IS Solver`.
+spadków, dodawanie i usuwanie odcinków.
+
+Dodatek działa **wyłącznie z tabelami obliczeń przepływów w standardzie CPK**
+(arkusze obliczeniowe `Przepływy` oraz `IS Solver`). Nie jest przeznaczony
+do tabel w standardzie PKP PLK.
 
 ## Pobieranie
 
