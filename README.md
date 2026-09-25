@@ -43,13 +43,13 @@ ponownie.
 
 Przy pierwszym obliczeniu dodatek poprosi o firmowy adres e-mail i wyśle na
 niego kod. Wpisz kod z wiadomości — dalej dodatek pamięta logowanie i sam je
-co jakiś czas odświeża.
+co jakiś czas odświeża. Ponowne logowanie może być potrzebne po dłuższym
+czasie bez internetu albo po aktualizacji dodatku do nowej wersji.
 
 **Wiadomość z kodem może trafić do spamu.** Jeśli nie widzisz jej w
 Skrzynce odbiorczej, sprawdź folder **Wiadomości-śmieci**. W Outlooku kliknij
 ją prawym przyciskiem → **Wiadomości-śmieci → Nie jest wiadomością-śmieciem**
-— kolejne kody będą wtedy trafiać do Skrzynki odbiorczej. Ponowne logowanie może być potrzebne po dłuższym
-czasie bez internetu albo po aktualizacji dodatku do nowej wersji.
+— kolejne kody będą wtedy trafiać do Skrzynki odbiorczej.
 
 Jeśli pojawi się komunikat o braku dostępu — skontaktuj się z administratorem.
 
