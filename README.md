@@ -24,23 +24,26 @@ Strona wydania: https://github.com/JiMmpka/HydroFlow_Release/releases/latest
 ## Instalacja
 
 1. Pobierz `HydroFlow.zip`.
-2. Rozpakuj **cały folder `HydroFlow`** w stałe miejsce na dysku (np.
+2. **Odblokuj pobrany plik:** kliknij `HydroFlow.zip` prawym przyciskiem →
+   **Właściwości** → na dole zakładki **Ogólne** zaznacz **Odblokuj** →
+   **OK**. Zrób to **przed rozpakowaniem** — Windows oznacza pobrane pliki
+   jako pochodzące z internetu i bez odblokowania Excel nie wczyta dodatku.
+3. Rozpakuj **cały folder `HydroFlow`** w stałe miejsce na dysku (np.
    `Dokumenty\HydroFlow`). W środku są `HydroFlow.xlam` i folder `bin`.
    - **Folder `bin` musi zawsze leżeć obok `HydroFlow.xlam`** — bez niego
      dodatek nie działa.
    - Nie zmieniaj nazw plików w folderze `bin`.
-3. W Excelu: **Plik → Opcje → Dodatki** → na dole **Zarządzaj: Dodatki
+4. W Excelu: **Plik → Opcje → Dodatki** → na dole **Zarządzaj: Dodatki
    programu Excel → Przejdź…** → **Przeglądaj…** → wskaż `HydroFlow.xlam` →
    upewnij się, że dodatek jest zaznaczony → **OK**.
 
 Po instalacji w Excelu pojawia się karta wstążki **Flows**.
 
-**Jeśli dodatek się nie wczytuje albo Excel blokuje jego makra** — Windows
-mógł oznaczyć pobrany plik jako pochodzący z internetu. Zwykle nie jest to
-potrzebne, ale w takiej sytuacji kliknij prawym przyciskiem plik ZIP (przed
-rozpakowaniem) albo `HydroFlow.xlam` → **Właściwości** → zaznacz
-**Odblokuj** (jeśli opcja jest dostępna) → **OK**, a potem uruchom Excel
-ponownie.
+**Jeśli przy starcie Excela pojawia się komunikat „Ten typ pliku nie jest
+obsługiwany w widoku chronionym”** (a po nim „nie może uzyskać dostępu do
+pliku”), pliki zostały rozpakowane bez odblokowania. Zamknij Excel, usuń
+rozpakowany folder `HydroFlow`, odblokuj `HydroFlow.zip` (krok 2), rozpakuj
+go ponownie w to samo miejsce i uruchom Excel.
 
 ## Pierwsze użycie — logowanie
 
@@ -70,7 +73,8 @@ Przyciski i skróty działają na arkuszu `Przepływy` albo `IS Solver`.
 
 ## Aktualizacja
 
-1. Pobierz nowy `HydroFlow.zip`.
+1. Pobierz nowy `HydroFlow.zip` i **odblokuj go** (Właściwości →
+   Odblokuj, jak przy instalacji).
 2. Zamknij Excel.
 3. Zastąp zawartość folderu `HydroFlow` nowymi plikami (`HydroFlow.xlam` i
    cały folder `bin`).
